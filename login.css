@@ -1,0 +1,136 @@
+body {
+    background-image: url("../images/drama.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+input, button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.main-div, .loggedin-div {
+    padding: 5% 0 5%;
+    margin-left: 20px;
+    float: center; 
+    display: none;
+}
+.register-form {
+    padding: 5% 0 5%;
+    margin-left: 20px;
+    float: center; 
+    display: none;
+}
+
+.currentuser {
+    float: left;
+    display: none;
+}
+
+.main-div input, .register-form input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+  border: 1px solid #777;
+}
+
+.main-div button, .loggedin-div button, .register-form button {
+    background: rgb(209, 173, 142);
+  color: #FFFFFF;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div button:hover, .loggedin-div button:hover, .register-form button:hover {
+  background: #43A047;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+
+.texto {
+     font-weight: 700;
+     font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.btn-secondary {
+    font-size: 15px;
+    font-weight: 700;
+     font-family: 'Nunito', sans-serif;
+}
+
+
+.mostrar {
+    padding-top : 1px;
+    white-space: nowrap;
+    float: rigth;
+}
+
+.textob {
+    color: black; 
+}
+
+.message {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+/* check box stuff*/
+.check input[type="checkbox"] {
+    display: none;
+}
+
+.check input[type="checkbox"] + label span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: -1px 4px 0 0;
+	vertical-align: middle;
+	background: url("images/checkbox-uncheck.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.check input[type="checkbox"]:checked + label span {
+	background: url("images/checkbox-check.png");
+	background-size: cover;
+}
+/*check box del registro */
+.check2 input[type="checkbox"] {
+    display: none;
+}
+
+.check2 input[type="checkbox"] + label span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: -1px 4px 0 0;
+	vertical-align: middle;
+	background: url("../images/checkbox-uncheck.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.check2 input[type="checkbox"]:checked + label span {
+	background: url("../images/checkbox-check.png");
+	background-size: cover;
+}
